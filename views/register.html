@@ -53,13 +53,13 @@
     </header>
     <form action="/" method="GET" class="formulario">
         <div class="control-formulario">
-            <input type="text" name="nombre" placeholder="Nombre y apellido" minlength="3" class="control">
+            <input type="text" name="nombre" placeholder="Nombre y apellido" minlength="3" class="control" required>
         </div>
         <div class="control-formulario">
-            <input type="text" name="usuario" placeholder="Nombre de usuario" class="control">
+            <input type="text" name="usuario" placeholder="Nombre de usuario" class="control" required>
         </div>
         <div class="control-formulario">
-            <input type="email" name="email" placeholder="E-mail" class="control">
+            <input type="email" name="email" placeholder="E-mail" class="control" required>
         </div>
         <div class="control-formulario">
             <h3>Fecha de nacimiento</h3>
@@ -87,14 +87,14 @@
         </div>
         <div class="control-formulario">
             <h3>Foto de usuario</h3>
-            <input type="file" name="fotoUsuario" accept=".jpg" class="control"></input>
+            <input type="file" name="fotoUsuario" accept=".jpg, .png" class="control"></input>
         </div>
         <div class="control-formulario">
             <h3>Clave</h3>
-            <input type="password" name="contrasena" placeholder="Contraseña" class="control">
+            <input type="password" name="contrasena" placeholder="Contraseña" class="control" required>
         </div>
         <div class="control-formulario">
-            <input type="password" name="Ccontrasena" placeholder="Confirmar contraseña" class="control">
+            <input type="password" name="Ccontrasena" placeholder="Confirmar contraseña" class="control" required>
         </div>
         <button type="submit" class="boton-formulario">Enviar</button>
         <button type="reset" class="boton-formulario">Borrar</button>
